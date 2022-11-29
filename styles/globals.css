@@ -9686,7 +9686,17 @@ h6,
 .thumbs{display: none;} 
 .control-dots {display: none;}
 
-
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #FFCC00;
+  color: #fff;
+  font-size: 1em;
+}
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: 0 0 0 3px #FFCC00;
+}
 
 /* .breakingNews{top: 50px;} */
 
